@@ -1,0 +1,76 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* CUSTOM CSS (ADD YOUR CSS HERE!) */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.35rem;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+.btnn {
+    color: #fff;
+    background-color: #ee3231;
+    font: 700 12px "Open Sans", sans-serif;
+    padding-left: 20px;
+    display: inline-block;
+    padding: 5px 5px 5px 25px;
+    font: 700 14px "Open Sans", sans-serif;
+    border-radius: 30px;
+}
+
+.btnn span.fa {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #fff;
+    fill: #fff;
+    color: #555;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 6px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.bg-primary {
+    color: #fff;
+    background-color: #ee3231;
+}
+
+.text-white {
+    color: #fff;
+}
